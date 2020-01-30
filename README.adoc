@@ -1,0 +1,13 @@
+== Spock vs Supermutanten
+=== Spezifikationstesten trifft Mutationstesten
+
+Das Spock Testframework verwendet das ausdrucksstarke Groovy um BDD als Testansatz zu realisieren. Neben einer klaren Teststruktur punktet es mit lesbaren Reports, die dank einer Template-Engine auch in AsciiDoc generiert werden können. Kann man das noch verbessern? Wir treten den Beweis an und kombinieren Spock mit Mutationstests. Denn eine Testabdeckung von über 80 % beweist noch nicht, dass die Testsuite in der Lage ist Fehler zuverlässig zu erkennen. Der Vortrag zeigt, wie sich Spock mit Mutationstesten zu einem cleveren Duo kombinieren lässt.
+
+Dieses Repository enthält den Source-Code zum gleichnamigen Vortrag:
+
+https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[Code Days 2020] 04.02.2020 in München
+
+=== Usage
+
+* `./gradlew` executes all Unit-Tests through Spock, executes Pitest and generates an AsciiDoc-Report
+
