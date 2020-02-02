@@ -221,8 +221,12 @@ a| ${ratioKilled}%:
 |Name    |#Classes   |Mutation Coverage
 <%
         mutatedPackages.each { p ->
+            def numMutantsPackage = pitreport.findAll { it.mutatedClass.startsWith(p) }.size()
+            def numMutantsPackageKilled = pitreport.findAll { it.mutatedClass.startsWith(p) && it.status=="KILLED"}.size()
+            Integer percentageCovered = (numMutantsPackageKilled/numMutantsPackage)*100
+
             def numClasses = mutatedClasses.findAll { it.startsWith(p) }.size()
-            out << "|$p |$numClasses |    ??\n"
+            out << "|$p |$numClasses |    ${percentageCovered}% \n"
         }
 %>
 |===
