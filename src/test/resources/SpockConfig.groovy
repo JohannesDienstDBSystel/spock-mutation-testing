@@ -1,3 +1,8 @@
+/*
+ * Copyright 2020 DB Systel GmbH
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 spockReports {
     set 'com.athaydes.spockframework.report.showCodeBlocks': true
     set 'com.athaydes.spockframework.report.outputDir': 'build/reports/spock'

@@ -7,7 +7,13 @@ Dieses Repository enthält den Source-Code zum gleichnamigen Vortrag:
 
 https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[Code Days 2020] 04.02.2020 in München
 
+A recording can be found at https://youtu.be/VUpPAE5aM0I[Spock vs Supermutanten @ Cyberland]
+
 === Usage
 
 * `./gradlew` executes all Unit-Tests through Spock, executes Pitest and generates an AsciiDoc-Report
+
+== License
+
+The content of this repository is licensed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
 

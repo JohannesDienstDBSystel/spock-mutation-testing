@@ -1,3 +1,8 @@
+/*
+ * Copyright 2020 DB Systel GmbH
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package de.dbsystel.sort;
 
 import java.util.ArrayList;

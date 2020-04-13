@@ -1,3 +1,8 @@
+<%--
+ * Copyright 2020 DB Systel GmbH
+ * SPDX-License-Identifier: Apache-2.0
+--%>
+
 = Spock Test Results
 // toc-title definition MUST follow document title without blank line!
 :toc-title: Table of Contents
