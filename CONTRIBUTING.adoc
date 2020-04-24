@@ -1,4 +1,4 @@
-# Contribution guidelines
+= Contribution guidelines
 
 We are happy that you are here. Contributions are welcome.
 
@@ -8,9 +8,9 @@ By submitting a contribution to this repository you agree that you do this under
 
 Note that this is a public repository. It's meant as a learning environment, not as a place to host valuable code. Don't commit anything which is not meant to be public or should rather be somewhere else.
 
-## Workflow for creating pull requests
+== Workflow for creating pull requests
 
-To create a pull request follow a simple workflow (this is the [standard GitHub flow](https://help.github.com/en/articles/github-flow)):
+To create a pull request follow a simple workflow (this is the https://help.github.com/en/articles/github-flow[standard GitHub flow]):
 
 1. Fork this repo
 

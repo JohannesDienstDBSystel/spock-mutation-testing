@@ -1,9 +1,12 @@
-== Spock vs Supermutanten
-=== Spezifikationstesten trifft Mutationstesten
+== Spock vs Supermutants
+=== Specification testing meets mutation testing
 
-Das Spock Testframework verwendet das ausdrucksstarke Groovy um BDD als Testansatz zu realisieren. Neben einer klaren Teststruktur punktet es mit lesbaren Reports, die dank einer Template-Engine auch in AsciiDoc generiert werden können. Kann man das noch verbessern? Wir treten den Beweis an und kombinieren Spock mit Mutationstests. Denn eine Testabdeckung von über 80 % beweist noch nicht, dass die Testsuite in der Lage ist Fehler zuverlässig zu erkennen. Der Vortrag zeigt, wie sich Spock mit Mutationstesten zu einem cleveren Duo kombinieren lässt.
+The Spock test framework uses the expressive Groovy to realize BDD as a test approach.
+Besides a clear test structure, it scores with readable reports, which can also be generated in AsciiDoc thanks to a
+template engine. Can this be improved? We take the proof and combine Spock with mutation tests.
+Because a test coverage of over 80% does not yet prove that the test suite is capable of reliably detecting errors. The presentation shows how Spock can be combined with mutation tests to form a clever duo.
 
-Dieses Repository enthält den Source-Code zum gleichnamigen Vortrag:
+This repository contains the source code for the presentation of the same name:
 
 https://www.code-days.de/programm/programm-details/411/spock-vs-supermutanten-spezifikationstesten-trifft-mutationstesten/[Code Days 2020] 04.02.2020 in München
 
@@ -15,5 +18,5 @@ A recording can be found at https://youtu.be/VUpPAE5aM0I[Spock vs Supermutanten 
 
 == License
 
-The content of this repository is licensed under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0).
+The content of this repository is licensed under the http://www.apache.org/licenses/LICENSE-2.0[Apache 2.0 license].
 
